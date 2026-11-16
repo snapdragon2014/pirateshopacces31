@@ -1,0 +1,10 @@
+{
+  "pirate_access": {
+    "sounds": [
+      {
+        "name": "piratechest:pirate_access",
+        "stream": false
+      }
+    ]
+  }
+}

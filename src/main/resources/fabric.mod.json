@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "piratechest",
+  "version": "${version}",
+  "name": "Pirate Chest Animation",
+  "description": "Client-side mod that plays the Fortnite Pirate Shop Access animation + sound every time you open a chest.",
+  "authors": ["Grok"],
+  "license": "MIT",
+  "icon": "assets/piratechest/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.piratechest.PirateChestClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
